@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Variables exercises.</title>
+</head>
+
+<body>
+    <h1>Variables</h1>
+    <script>
+        var age = parseInt(prompt("How old are you?"));
+        if(age <= 0) { // We should take into account negative and zero values
+            alert("Oh really, you're not even 1?");
+        } else if ( age <= 17 ) {
+            alert("You're not old enought.");
+        } else if ( age <= 49 ) {
+            alert("Nice, best part of life!");
+        } else if ( age <= 59 ) {
+            alert("You're senior now, but still active.");
+        } else if (age <= 120 ) {
+            alert("You're retired now, have fun!");
+        } else if (age > 120) {
+            alert("Seriously ???");
+        } else {
+            alert("You should give us your age...");
+        }
+    </script>
+</body>
+</html>
